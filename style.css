@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --cor-de-fundo: #06143b;
 }
 body {
   
@@ -15,4 +15,11 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+.principal{
+
+    background-image: url("img/Background.png");
+}
+.container{
+    height: 100vh;
 }
