@@ -2,7 +2,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
-    --cor-de-fundo: #06143b;
+    --cor-de-fundo: #01010c;
     --fonte-pricipal:'inter';
 }
 body {
@@ -62,4 +62,13 @@ color: var(--cinza-secundario);
 }
 .secundario--imagem{
     width: 80%;
+    margin: 0 10em;
+}
+.container--secundario{
+    width: 80%;
+    display:flex;
+}
+.descricao--titulo{
+    align-items:center;
+    margin: 0 10em;
 }
